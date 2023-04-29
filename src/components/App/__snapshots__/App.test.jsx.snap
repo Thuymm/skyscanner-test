@@ -8,15 +8,90 @@ exports[`App should render correctly 1`] = `
   <main
     className="App__main"
   >
-    <BpkText
-      bold={null}
-      className={null}
-      tagName="p"
-      textStyle="body-default"
-      weight={null}
-    >
-      Over to you...
-    </BpkText>
+    <FlightCard
+      className="App__card"
+      data={
+        Object {
+          "agent": "Wizzair.com",
+          "agent_rating": 9.1,
+          "id": "it_1",
+          "legs": Array [],
+          "price": "£35",
+        }
+      }
+    />
+    <FlightCard
+      className="App__card"
+      data={
+        Object {
+          "agent": "British Airways",
+          "agent_rating": 9.3,
+          "id": "it_2",
+          "legs": Array [],
+          "price": "£115",
+        }
+      }
+    />
+    <FlightCard
+      className="App__card"
+      data={
+        Object {
+          "agent": "Lufthansa",
+          "agent_rating": 8.9,
+          "id": "it_3",
+          "legs": Array [],
+          "price": "£90",
+        }
+      }
+    />
+    <FlightCard
+      className="App__card"
+      data={
+        Object {
+          "agent": "Trip.com",
+          "agent_rating": 9.5,
+          "id": "it_4",
+          "legs": Array [],
+          "price": "£105",
+        }
+      }
+    />
+    <FlightCard
+      className="App__card"
+      data={
+        Object {
+          "agent": "Trip.com",
+          "agent_rating": 9.5,
+          "id": "it_5",
+          "legs": Array [],
+          "price": "£195",
+        }
+      }
+    />
+    <FlightCard
+      className="App__card"
+      data={
+        Object {
+          "agent": "Kiwi.com",
+          "agent_rating": 8,
+          "id": "it_6",
+          "legs": Array [],
+          "price": "£93",
+        }
+      }
+    />
+    <FlightCard
+      className="App__card"
+      data={
+        Object {
+          "agent": "CheapFligths",
+          "agent_rating": 10,
+          "id": "it_7",
+          "legs": Array [],
+          "price": "£42",
+        }
+      }
+    />
   </main>
 </div>
 `;

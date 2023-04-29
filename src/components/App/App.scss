@@ -1,6 +1,8 @@
-@import '~bpk-mixins';
+@import "~bpk-mixins";
 
 .App {
+  background-color: rgb(240, 240, 240);
+
   &__main {
     padding: bpk-spacing-base();
   }

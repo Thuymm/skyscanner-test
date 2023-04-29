@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlightCard should render correctly when there is an item 1`] = `
+<div
+  className="bpk-card bpk-card--padded card"
+  role="button"
+  tabIndex={0}
+>
+  <div
+    className="card__content"
+  >
+    <div
+      className="card__item-left"
+    >
+      <img
+        className="card__image"
+        src="https://logos.skyscnr.com/images/airlines/favicon/WZ.png"
+      />
+      <span
+        className="bpk-text bpk-text--body-default card__time"
+      >
+        15:35
+        <br />
+        <span
+          className="bpk-text bpk-text--body-default card__port"
+        >
+          BUD
+        </span>
+      </span>
+      <img
+        className="card__image"
+        src="right-arrow.svg"
+      />
+      <span
+        className="bpk-text bpk-text--body-default card__time"
+      >
+        15:35
+        <br />
+        <span
+          className="bpk-text bpk-text--body-default card__port"
+        >
+          LTN
+        </span>
+      </span>
+    </div>
+    <div
+      className="card__item-right"
+    >
+      <span
+        className="bpk-text bpk-text--body-default card__duration"
+      >
+        2h 25
+      </span>
+      <span
+        className="bpk-text bpk-text--body-default card__stop"
+      >
+        <span
+          className="card__green"
+        >
+          Direct
+        </span>
+      </span>
+    </div>
+    <div
+      className="card__item-left"
+    >
+      <img
+        className="card__image"
+        src="https://logos.skyscnr.com/images/airlines/favicon/WZ.png"
+      />
+      <span
+        className="bpk-text bpk-text--body-default card__time"
+      >
+        19:45
+        <br />
+        <span
+          className="bpk-text bpk-text--body-default card__port"
+        >
+          LTN
+        </span>
+      </span>
+      <img
+        className="card__image"
+        src="right-arrow.svg"
+      />
+      <span
+        className="bpk-text bpk-text--body-default card__time"
+      >
+        19:45
+        <br />
+        <span
+          className="bpk-text bpk-text--body-default card__port"
+        >
+          BUD
+        </span>
+      </span>
+    </div>
+    <div
+      className="card__item-right"
+    >
+      <span
+        className="bpk-text bpk-text--body-default card__duration"
+      >
+        2h 25
+      </span>
+      <span
+        className="bpk-text bpk-text--body-default card__stop"
+      >
+        <span
+          className="card__green"
+        >
+          Direct
+        </span>
+      </span>
+    </div>
+    <div
+      className="card__footer"
+    >
+      <p
+        className="bpk-text bpk-text--body-default card__price"
+      >
+        £35
+      </p>
+      <p
+        className="bpk-text bpk-text--body-default card__agent"
+      >
+        Wizzair.com
+      </p>
+    </div>
+    <button
+      className="bpk-button bpk-button--large"
+      disabled={false}
+      onClick={null}
+      type="button"
+    >
+      Select
+    </button>
+  </div>
+</div>
+`;
+
+exports[`FlightCard should render correctly when there is no item 1`] = `<span />`;

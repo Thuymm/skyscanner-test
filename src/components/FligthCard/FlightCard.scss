@@ -1,0 +1,104 @@
+@import "~bpk-mixins";
+
+.card {
+  margin: 10px 0;
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  &__item-left {
+    column-gap: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__item-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  &__image {
+    width: bpk-spacing-lg();
+    height: bpk-spacing-lg();
+    vertical-align: top;
+  }
+
+  &__duration {
+    font-size: $bpk-font-size-sm;
+    color: rgb(126, 128, 134);
+  }
+
+  &__stop {
+    font-size: $bpk-font-size-sm;
+    color: rgb(126, 128, 134);
+  }
+
+  &__port {
+    color: rgb(126, 128, 134);
+  }
+
+  &__time {
+    font-weight: $bpk-font-weight-bold;
+    color: rgb(100, 100, 100);
+  }
+
+  &__green {
+    color: rgb(146, 200, 205);
+  }
+
+  &__red {
+    color: rgb(210, 39, 149);
+  }
+
+  &__price {
+    @include bpk-text--xxl;
+    font-weight: $bpk-font-weight-book;
+  }
+
+  &__agent {
+    @include bpk-text-base;
+    color: rgb(210, 210, 210);
+  }
+
+  &__footer {
+    flex: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  @media (max-width: 480px) and (orientation: portrait) {
+    &__content {
+      column-gap: 0;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+
+    &__item-left {
+      flex: 80%;
+    }
+
+    &__item-right {
+      flex: 20%;
+    }
+
+    &__footer {
+      flex: 40%;
+      align-items: flex-start;
+    }
+  }
+}
